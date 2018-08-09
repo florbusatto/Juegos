@@ -1,0 +1,58 @@
+* {
+    margin:0 auto;
+	padding:0;
+	box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  padding: 1%;	
+  background-image: url("../img/walldados.jpg");	
+  font-style: "Lato";	
+  opacity: 0.9;	
+  margin:0 auto;
+}
+
+.mainContainer {
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 10px;	
+    border: outset 1px;		
+    border-radius: 8px;
+    background-color: green;
+}
+.mesaDados {
+    width: 30%;
+    margin: 0 auto;	
+    margin-bottom: 10px;
+}
+
+h1 {
+    color: white;
+    margin-top: 30px;
+    margin: 0 auto;
+    font-size: "Lato";	
+    font-weight: bold;
+    font-size: larger;		
+    text-align: justify;
+}
+
+#bt_turno {
+    background-color: #f4511e;
+    width: 200px;
+    height: 50px;
+    color: white;
+    border-radius: 4px;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+.bt_tirar {
+    background-color: #ffee58;
+    width: 200px;
+    height: 50px;
+    color: black;
+    border-radius: 4px;
+    margin: 0 auto;	
+    margin-bottom: 5px;
+}

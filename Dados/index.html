@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>	
+	<meta charset="UTF-8"/>	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>	
+    <title>Dice Game!</title>
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"/>
+	<link rel="stylesheet" media= "only screen and (color)" type="text/css" href="css/estilo.css"/>		
+	<link rel="stylesheet" media="screen and(max-device-width : 799px)"/>	
+</head>
+<body>
+	<div class="mainContainer">
+	 <div class="mesaDados">
+      <h1>Roll the Dice!</h1>
+      <button  id="bt_turno" onclick="seleccionarTurno()">Selecionar turno</button>
+      <div id="jugador"></div>
+      <div id="cpu"></div>
+      <button class="bt_tirar" id="bt_tirar" onclick="lanzarDado()">Lanzar dados</button>
+      <div id="dice"></div>	
+     </div>	
+    </div>
+
+<script src="js/jquery.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>
