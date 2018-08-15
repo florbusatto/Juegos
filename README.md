@@ -1,2 +1,4 @@
 # Juegos
-Juegos realizados con Javascript y Jquery
+Juegos realizados con Javascript y Jquery.
+Memotest.
+Dados.
